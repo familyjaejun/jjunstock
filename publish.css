@@ -1,0 +1,2 @@
+details summary { cursor: pointer; }
+details:not([open]) > *:not(summary) { display: none; }
